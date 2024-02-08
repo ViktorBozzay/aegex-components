@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Svelte Components made by Aegex",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorBozzay/aegex-components.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
