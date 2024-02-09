@@ -14,7 +14,7 @@
 	"scripts": {
 		"dev": "concurrently --kill-others \"vite dev --port 3032 -- --host -- --open\" \"npm run storybook dev -p 3033\"",
 		"build": "vite build && npm run package",
-		"publish": "npm run package & npm publish --access public",
+		"publish": "npm run package & npm publish --access=public",
 		"preview": "vite preview",
 		"package": "svelte-kit sync && svelte-package && publint",
 		"prepublishOnly": "npm run package",
