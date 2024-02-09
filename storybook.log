@@ -1,0 +1,8 @@
+npm WARN ERESOLVE overriding peer dependency
+npm WARN ERESOLVE overriding peer dependency
+npm ERR! code EJSONPARSE
+npm ERR! JSON.parse Invalid package.json: JSONParseError: Unexpected token "}" (0x7D) in JSON at position 1799 while parsing near "..../dist/index.d.ts\",\n}"
+npm ERR! JSON.parse Failed to parse JSON data.
+npm ERR! JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+
+npm ERR! A complete log of this run can be found in: C:\Users\Viktor\AppData\Local\npm-cache\_logs\2024-02-09T14_35_15_011Z-debug-0.log
