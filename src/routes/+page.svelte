@@ -1,9 +1,10 @@
 <script lang="ts">
-  import TestComponent from '$lib/components/TestComponent/TestComponent.svelte';
+  import TestComponent from '$lib/TestComponent/TestComponent.svelte';
 </script>
 
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Welcome to your Aegex's Svelte component library project</h1>
+<p>The project contains StoryBook and SvelteKit pages as well.</p>
+<p>The StoryBook page hosted here: </p>
+<a href="https://viktorbozzay.github.io/aegex-components/?path=/docs/testcomponent--docs" target="_blank">Aegex Svelte Component Library</a>
 <h2>This is the very first test component:</h2>
 <TestComponent />

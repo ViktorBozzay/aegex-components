@@ -1,6 +1,6 @@
 import type {Meta, StoryObj} from "@storybook/svelte";
 
-import TestComponent from '../lib/components/TestComponent/TestComponent.svelte';
+import TestComponent from '../lib/TestComponent/TestComponent.svelte';
 
 const meta = {
   title: "TestComponent",
