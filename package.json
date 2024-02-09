@@ -1,15 +1,45 @@
 {
   "name": "aegex-components",
-  "version": "1.0.0",
-  "description": "Svelte Components made by Aegex",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ViktorBozzay/aegex-components.git"
-  },
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "keywords": [
+    "svelte",
+    "component",
+    "component library",
+    "aegex"
+  ],
+  "author": "exphoenee <vbozzay@aegex.com>",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently --kill-others \"vite --port 3000 -- --host\" \"npm run storybook dev -p 6007\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "storybook": "storybook dev -p 6007",
+    "build-storybook": "storybook build"
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "@storybook/addon-essentials": "^7.6.13",
+    "@storybook/addon-interactions": "^7.6.13",
+    "@storybook/addon-links": "^7.6.13",
+    "@storybook/blocks": "^7.6.13",
+    "@storybook/svelte": "^7.6.13",
+    "@storybook/svelte-vite": "^7.6.13",
+    "@storybook/test": "^7.6.13",
+    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "@tsconfig/svelte": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.70.0",
+    "storybook": "^7.6.13",
+    "svelte": "^4.0.5",
+    "svelte-check": "^3.4.6",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vitest": "^1.2.2"
+  },
+  "dependencies": {}
 }
