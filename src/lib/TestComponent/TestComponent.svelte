@@ -2,7 +2,7 @@
 
 </script>
 
-<p>This is a very now Aegex component! 0.0.5 version</p>
+<p>This is a very now GX Components for Svelte! 0.0.2 version</p>
 
 <style lang="scss">
   p {
