@@ -1,15 +1,14 @@
 {
 	"name": "gxcmpnents",
 	"private": false,
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"author": "vbozzay <vbozzay@aegex.com>",
 	"license": "MIT",
 	"keywords": [
 		"svelte",
 		"component",
-		"component library",
-		"aegex"
+		"component library"
 	],
 	"scripts": {
 		"dev": "concurrently --kill-others \"vite dev --port 3032 -- --host -- --open\" \"npm run storybook dev -p 3033\"",
