@@ -1,4 +1,4 @@
-# Welcome to Aegex Svelte component package
+# Welcome to GX Components for Svelte component package
 The StoryBook page hosted on Github Pages [here](https://viktorbozzay.github.io/aegex-components/?path=/docs/testcomponent--docs)!
 
 You can start the project with:
