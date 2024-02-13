@@ -2,7 +2,7 @@
   import TestComponent from '../lib/TestComponent/TestComponent.svelte';
 </script>
 
-<h1>Welcome to your Aegex's Svelte component library project</h1>
+<h1>Welcome to your GX Components Svelte component library project</h1>
 <p>The project contains StoryBook and SvelteKit pages as well.</p>
 <p>The StoryBook page hosted here: </p>
 <a href="https://viktorbozzay.github.io/aegex-components/?path=/docs/testcomponent--docs" target="_blank">Aegex Svelte Component Library</a>
