@@ -1,0 +1,29 @@
+@import './color-mixins';
+
+$dark-theme: (
+  'primary-bg': #20202A,
+  'secondary-bg': #202025,
+  'primary': #F5F5F5,
+  'secondary': #F1F1F5,
+  'primary-text': #EFEFEF,
+  'secondary-text': #000055,
+  'primary-border': #212121,
+  'secondary-border': #303030,
+  'primary-shadow': #100F15,
+  'secondary-shadow': #666666,
+  'primary-button': #30308A,
+  'secondary-button': #AA3030,
+  'disabled-bg': #303030,
+  'disabled-text': #a2a2ff,
+  'danger': #BA3030,
+  'warning': #B76363,
+  'success': #309A70,
+);
+
+:global(:root) {
+  @each $name, $color in $dark-theme {
+    @include generate-color-variants($color, $name, dark);
+  }
+}
+
+

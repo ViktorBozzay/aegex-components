@@ -1,0 +1,29 @@
+@import './color-mixins';
+
+$light-theme: (
+  'primary-bg': #FAFAFA,
+  'secondary-bg': #A0F0FA,
+  'primary': #050505,
+  'secondary': #010155,
+  'primary-text': #101010,
+  'secondary-text': #000055,
+  'primary-border': #aaaaaa,
+  'secondary-border': #202020,
+  'primary-shadow': #AAAAAA,
+  'secondary-shadow': #DDDDDD,
+  'primary-button': #4040FA,
+  'secondary-button': #FA4040,
+  'disabled-bg': #c0d0e0,
+  'disabled-text': #02020f,
+  'danger': #FA3030,
+  'warning': #F76363,
+  'success': #30AA70,
+);
+
+:global(:root) {
+  @each $name, $color in $light-theme {
+    @include generate-color-variants($color, $name, light);
+  }
+}
+
+

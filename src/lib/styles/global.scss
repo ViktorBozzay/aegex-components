@@ -1,0 +1,42 @@
+@import './reset.scss';
+@import './dark-colors';
+@import './light-colors';
+@import './color-mixins';
+
+
+
+:global(*) {
+  font-family: 'Roboto', sans-serif;
+}
+
+:global(:root) {
+  --toast-z-index: 230;
+  --tooltip-z-index: 220;
+  --modal-z-index: 210;
+  --fullscreen-z-index: 130;
+  --hamburger-z-index: 120;
+  --to-top-z-index: 110;
+  --page-header-z-index: 105;
+  --page-footer-z-index: 100;
+  --page-nav-z-index: 100;
+  --page-aside-z-index: 100;
+}
+
+:global(html) {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+// These theme naming should be the same as in javascript dark and light
+:global(html[data-theme='dark']) {
+  @each $name, $color in $dark-theme {
+    @include generate-color-variants($color, $name, "", true);
+  }
+}
+
+:global(html[data-theme='light']) {
+  @each $name, $color in $light-theme {
+    @include generate-color-variants($color, $name);
+  }
+}
