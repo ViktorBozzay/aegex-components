@@ -1,5 +1,5 @@
 <script lang="ts">
-  import TestComponent from '$lib/TestComponent/TestComponent.svelte';
+  import TestComponent from '../lib/TestComponent/TestComponent.svelte';
 </script>
 
 <h1>Welcome to your Aegex's Svelte component library project</h1>
