@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/svelte';
 
 // import Step from './TestComponents/StepTest.svelte';
-import Step from '../lib/components/Step/Step.svelte';
+import Step from '../../lib/components/Step/Step.svelte';
 import TestComponent1 from './TestComponents/TestStepComponent1.svelte';
 import TestComponent2 from './TestComponents/TestStepComponent2.svelte';
 import TestComponent3 from './TestComponents/TestStepComponent3.svelte';

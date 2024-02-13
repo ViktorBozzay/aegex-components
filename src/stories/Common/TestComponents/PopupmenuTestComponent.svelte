@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Button from '../../lib/components/Buttons/General/Button.svelte';
-  import Popupmenu from '../../lib/components/Popupmenu/Popupmenu.svelte';
+	import Button from '../../../lib/components/Buttons/General/Button.svelte';
+  import Popupmenu from '../../../lib/components/Popupmenu/Popupmenu.svelte';
 
   export let tooltipText: string | undefined = undefined;
   export let isOpen = false;

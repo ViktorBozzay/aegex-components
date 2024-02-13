@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Movable from "../../lib/components/Movable/Movable.svelte";
+  import Movable from "../../../lib/components/Movable/Movable.svelte";
 
   export let alwaysOnScreen = false;
   export let addPlaceholder = true;

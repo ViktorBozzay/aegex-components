@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ScrollableContainer from "../../lib/components/ScrollableContainer/ScrollableContainer.svelte";
+  import ScrollableContainer from "../../../lib/components/ScrollableContainer/ScrollableContainer.svelte";
 
   export let maxHeight: string = "300px";
 </script>

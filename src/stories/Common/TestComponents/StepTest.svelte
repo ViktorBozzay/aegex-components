@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Step from '../../lib/components/Step/Step.svelte';
+  import Step from '../../../lib/components/Step/Step.svelte';
   import TestComponent1 from './TestStepComponent1.svelte';
   import TestComponent2 from './TestStepComponent2.svelte';
   import TestComponent3 from './TestStepComponent3.svelte';
