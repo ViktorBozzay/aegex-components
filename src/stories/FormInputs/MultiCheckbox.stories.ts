@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/svelte';
 
-import Multicheckbox from '../../lib//lib/components/Form/Input/Multicheckbox.svelte';
+import Multicheckbox from '../../lib/components/Form/Input/Multicheckbox.svelte';
 
 const meta = {
 	title: 'FormInputs/MultiCheckbox',

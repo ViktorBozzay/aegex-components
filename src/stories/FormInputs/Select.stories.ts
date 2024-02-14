@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/svelte';
 
-import Select from '../../lib//lib/components/Form/Input/Select.svelte';
+import Select from '../../lib/components/Form/Input/Select.svelte';
 
 const meta = {
 	title: 'FormInputs/Select',

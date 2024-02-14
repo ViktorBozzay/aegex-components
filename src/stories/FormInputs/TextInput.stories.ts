@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/svelte';
 
-import TextInput from '../../lib//lib/components/Form/Input/TextInput.svelte';
+import TextInput from '../../lib/components/Form/Input/TextInput.svelte';
 
 const meta = {
 	title: 'FormInputs/TextInput',

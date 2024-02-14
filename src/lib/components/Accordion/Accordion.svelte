@@ -20,7 +20,12 @@
   </div>
 
   {#if expanded}
-    <div transition:slide>
+    <div
+      transition:slide
+      role="region"
+      aria-label="Content"
+      aria-hidden={!expanded}
+    >
       <slot name="content"/>
     </div>
   {/if}
