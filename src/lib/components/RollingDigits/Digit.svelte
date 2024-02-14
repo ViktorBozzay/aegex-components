@@ -16,6 +16,7 @@
     position: relative;
 		height: var(--size);
 		font-size: var(--size);
+    line-height: var(--size);
 		top: var(--offset);
 		transition: top 0.5s cubic-bezier(0.85, 0, 0.15, 1);
 
