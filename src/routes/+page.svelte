@@ -8,9 +8,10 @@
   import DatePicker from '../lib/components/Form/Input/DatePicker.svelte';
   import Chart from '../lib/components/Chart/Chart.svelte';
 	import HamburgerMenu from '$lib/components/HamburgerMenu/HamburgerMenu.svelte';
-  import UIContext from '$lib/contexts/UI/UIContext.svelte';
+  import UIContext from '../lib/contexts/UI/UIContext.svelte';
+  // import Style from '../lib/components/Style/Style.svelte';
 </script>
-
+<!-- <Style /> -->
 <UIContext>
   <h1>Welcome to your GX Components Svelte component library project</h1>
   <p>The project contains StoryBook and SvelteKit pages as well.</p>
@@ -62,5 +63,5 @@
 </UIContext>
 
 <style lang="scss">
-  // @import "../lib/styles/global.scss";
+  @import "../lib/styles/global.scss";
 </style>

@@ -3,7 +3,7 @@
 @import './light-colors';
 @import './color-mixins';
 
-
+@debug "Global styles";
 
 :global(*) {
   font-family: 'Roboto', sans-serif;

@@ -349,10 +349,15 @@
       button {
         background-color: transparent;
         color: var(--primary-text);
+        padding: 0;
         outline: 0;
         border: 0;
         transition: all 0.2s ease-in-out;
         cursor: pointer;
+
+        &:month-change {
+          padding: 0.125rem;
+        }
 
         &:hover {
           cursor: pointer;
@@ -372,6 +377,8 @@
       box-shadow: 1px 2px 5px var(--primary-shadow);
       border-radius: 0.25rem;
       overflow: hidden;
+      max-width: fit-content;
+      margin: 0 auto;
 
       &.showWeekNr {
         grid-template-columns: repeat(8, minmax(0, 2rem)) !important;

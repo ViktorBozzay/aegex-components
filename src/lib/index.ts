@@ -1,5 +1,7 @@
 // import globalStyles from './styles/global.scss';
 
+import Style from './components/Style/Style.svelte';
+
 import TestComponent from './components/TestComponent/TestComponent.svelte';
 import Icon from './components/Icon/Icon.svelte';
 
@@ -55,6 +57,7 @@ import InputLabel from './components/Form/Input/InputLabel.svelte';
 
 export {
 	// globalStyles,
+	Style,
 	Accordion,
 	Chart,
 	Dialog,
