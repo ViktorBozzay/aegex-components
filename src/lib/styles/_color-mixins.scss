@@ -1,0 +1,23 @@
+@import './find-shades';
+
+@mixin generate-color-variants($base-color, $prefix, $theme: "", $reverse: false) {
+  $shades: find-shade($base-color);
+
+  $theme-name: if($theme == "", "", "-#{$theme}");
+  --#{$prefix}#{$theme-name}: #{$base-color};
+
+  $step: 0;
+  @if $reverse {
+    $step: 1100;
+  }
+  @each $shade in $shades {
+    @each $color in $shade {
+      @if $reverse {
+        $step: $step - 100;
+      } @else {
+        $step: $step + 100;
+      }
+      --#{$prefix}#{$theme-name}-#{$step}: #{$color};
+    }
+  }
+}
