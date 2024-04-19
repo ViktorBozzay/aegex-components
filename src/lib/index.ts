@@ -1,6 +1,4 @@
-// import globalStyles from './styles/global.scss';
-
-import Style from './components/Style/Style.svelte';
+import './styles/global.scss';
 
 import TestComponent from './components/TestComponent/TestComponent.svelte';
 import Icon from './components/Icon/Icon.svelte';
@@ -55,9 +53,10 @@ import Toggle from './components/Form/Input/Toggle.svelte';
 import InputError from './components/Form/Input/InputError.svelte';
 import InputLabel from './components/Form/Input/InputLabel.svelte';
 
+const html = document.getElementsByTagName('html');
+if (html) html[0].dataset.theme = 'light';
+
 export {
-	// globalStyles,
-	Style,
 	Accordion,
 	Chart,
 	Dialog,
